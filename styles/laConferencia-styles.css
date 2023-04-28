@@ -1,0 +1,163 @@
+.laConferencia {
+    height: calc(100vh - var(--header-height));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: backgroundImage 60s ease-in-out 0s infinite backwards alternate;
+
+}
+
+.contenedor-descripcion-conferencia {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    max-width: 650px;
+    padding-left: 10px;
+}
+
+
+.contenedor-descripcion-conferencia>h1,
+.contenedor-descripcion-conferencia>p {
+    text-align: right;
+    color: white;
+}
+
+.contenedor-descripcion-conferencia h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.contenedor-descripcion-conferencia p {
+    margin-top: 15px;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+.contenedor-botones {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+}
+
+.boton-quiero-ser-orador {
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-quiero-ser-orador:hover {
+    color: var(--text-color-alternative);
+    background-color: white;
+}
+
+.boton-comprar-tickets {
+    padding: 10px;
+    color: white;
+    background-color: var(--button-color-primary);
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.contenedor-botones button {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media screen and (max-height: 800px) and (max-width: 800px) {
+    .contenedor-descripcion-conferencia {
+        top: auto;
+        right: 20px;
+        bottom: 10px;
+        left: auto;
+        width: 90%;
+    }
+
+    .contenedor-descripcion-conferencia p {
+        font-size: 1em;
+    }
+
+    .contenedor-botones button {
+        font-size: 1em;
+    }
+
+    .laConferencia {
+        animation: backgroundImageMobile 60s ease 0s infinite forwards normal;
+    }
+
+}
+
+@media screen and (max-height: 500px) and (min-width: 800px) {
+
+    .contenedor-descripcion-conferencia {
+        bottom: 10px;
+        right: 50px;
+        padding: 0;
+    }
+
+    .contenedor-descripcion-conferencia h1 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+
+    .contenedor-descripcion-conferencia p {
+        margin-top: 15px;
+        font-size: 1.1em;
+        line-height: normal;
+    }
+
+    .contenedor-botones button {
+        font-size: 1em;
+    }
+}
+
+@keyframes backgroundImage {
+
+    0% {
+        background-image:
+            linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba1.jpg");
+    }
+
+    33% {
+        background-image:
+            linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba2.jpg");
+    }
+
+    100% {
+        background-image:
+            linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba3.jpg");
+    }
+
+}
+
+@keyframes backgroundImageMobile {
+    0% {
+        background-image:
+            linear-gradient(to top, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba1.jpg");
+    }
+
+    33% {
+        background-image:
+            linear-gradient(to top, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba2.jpg");
+    }
+
+    100% {
+        background-image:
+            linear-gradient(to top, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba3.jpg");
+    }
+}
