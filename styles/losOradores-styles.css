@@ -118,11 +118,6 @@
         display: none;
     }
 
-    .card-orador img {
-        border-bottom-left-radius: 5px;
-        border-top-right-radius: 0;
-    }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -137,5 +132,10 @@
         flex-direction: row;
         width: 600px;
         height: 250px;
+    }
+
+    .card-orador img {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
     }
 }
