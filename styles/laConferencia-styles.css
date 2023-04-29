@@ -125,18 +125,24 @@
     0% {
         background-image:
             linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
-            url("../images/la-conferencia/ba1.jpg");
+            url("../images/la-conferencia/ba1.jpg"),
+            url("../images/la-conferencia/ba2.jpg"),
+            url("../images/la-conferencia/ba3.jpg");
     }
 
     33% {
         background-image:
             linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
-            url("../images/la-conferencia/ba2.jpg");
+            url("../images/la-conferencia/ba2.jpg"),
+            url("../images/la-conferencia/ba1.jpg"),
+            url("../images/la-conferencia/ba3.jpg");
     }
 
     100% {
         background-image:
             linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
+            url("../images/la-conferencia/ba3.jpg"),
+            url("../images/la-conferencia/ba1.jpg"),
             url("../images/la-conferencia/ba3.jpg");
     }
 
