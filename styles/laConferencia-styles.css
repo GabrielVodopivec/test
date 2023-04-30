@@ -1,4 +1,5 @@
 .laConferencia {
+    position: relative;
     height: calc(100vh - var(--header-height));
     background-position: center;
     background-repeat: no-repeat;
@@ -77,7 +78,7 @@
     .contenedor-descripcion-conferencia {
         top: auto;
         right: 20px;
-        bottom: 20px;
+        bottom: 30px;
         left: auto;
         width: 90%;
     }
@@ -99,7 +100,7 @@
 @media screen and (max-height: 500px) and (min-width: 800px) {
 
     .contenedor-descripcion-conferencia {
-        bottom: 10px;
+        bottom: 30px;
         right: 50px;
         padding: 0;
     }
