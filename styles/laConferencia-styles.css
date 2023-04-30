@@ -11,6 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: 30s ease-in 0s infinite normal backwards;
 }
 
 .laConferencia>.bg1 {
@@ -18,7 +19,7 @@
     background-image:
         linear-gradient(to left, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0)),
         url("../images/la-conferencia/ba1.jpg");
-    animation: transformOpacityB1 30s ease-in 0s infinite normal backwards;
+    animation-name: transformOpacityB1;
 }
 
 .laConferencia>.bg2 {
@@ -26,8 +27,7 @@
     background-image:
         linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
         url("../images/la-conferencia/ba2.jpg");
-    animation: transformOpacityB2 30s ease-in 0s infinite normal backwards;
-
+    animation-name: transformOpacityB2;
 }
 
 .laConferencia>.bg3 {
@@ -35,7 +35,6 @@
     background-image:
         linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
         url("../images/la-conferencia/ba3.jpg");
-    animation: transformOpacityB3 30s ease-in 0s infinite normal backwards;
 }
 
 .contenedor-descripcion-conferencia {
