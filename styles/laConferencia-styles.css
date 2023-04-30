@@ -23,7 +23,6 @@
 }
 
 .laConferencia>.bg2 {
-    opacity: 0%;
     background-image:
         linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
         url("../images/la-conferencia/ba2.jpg");
@@ -164,18 +163,12 @@
 
 @keyframes transformOpacityB1 {
 
-    0% {
-        opacity: 100%;
-    }
-
+    0%,
     25% {
         opacity: 100%;
     }
 
-    35% {
-        opacity: 0%;
-    }
-
+    33%,
     90% {
         opacity: 0%;
     }
@@ -183,34 +176,16 @@
     100% {
         opacity: 100%;
     }
-
 }
 
 @keyframes transformOpacityB2 {
-    0% {
-        opacity: 0%;
-    }
 
-    15% {
-        opacity: 0%;
-    }
-
-    25% {
+    0%,
+    56% {
         opacity: 100%;
     }
 
-    50% {
-        opacity: 100%;
-    }
-
-    60% {
-        opacity: 0%;
-    }
-
-    75% {
-        opacity: 0%;
-    }
-
+    66%,
     100% {
         opacity: 0%;
     }
