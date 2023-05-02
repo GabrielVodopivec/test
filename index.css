@@ -48,13 +48,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-button {
+    height: 10px;
     background-color: var(--color-yellow-primary);
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--header-backgroundColor);
-}
-
-body::-webkit-scrollbar-track {
-    background-color: var(--color-yellow-primary);
 }
