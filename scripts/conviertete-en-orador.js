@@ -1,4 +1,4 @@
-const form = document.getElementById("formulario-conviertete-en-orador");
+let form = document.getElementById("formulario-conviertete-en-orador");
 
 const onSubmit = (event) => {
     event.preventDefault();
