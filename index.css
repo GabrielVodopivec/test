@@ -52,7 +52,6 @@ body::-webkit-scrollbar-button {
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
     background-color: var(--header-backgroundColor);
 }
 

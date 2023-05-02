@@ -7,7 +7,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    filter: brightness(80%);
+    filter: brightness(90%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
 .laConferencia>.bg1 {
     opacity: 100%;
     background-image:
-        linear-gradient(to left, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0)),
+        linear-gradient(to left, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0)),
         url("../images/la-conferencia/ba1.jpg");
     animation-name: transformOpacityB1;
 }
