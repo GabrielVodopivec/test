@@ -1,6 +1,6 @@
 let cardsContainer = document.getElementById("cards-container");
 let isDragging = false;
-let startX, startY;
+let startX;
 
 const handleMouseDown = (event) => {
     isDragging = true;

@@ -9,11 +9,11 @@ header {
     height: var(--header-height);
     background-color: var(--header-backgroundColor);
     box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.4);
+
 }
 
 header>button {
     display: none;
-
 }
 
 header>button:hover {
@@ -130,7 +130,7 @@ li {
         position: fixed;
         top: calc(var(--header-height) - 5px);
         left: -100%;
-        transition: 300ms;
+        transition: transform 300ms ease-in-out;
         width: 100%;
 
     }
@@ -161,7 +161,6 @@ li {
 
     .active {
         transform: translateX(100%);
-        transition: 300ms;
     }
 
     .sup {

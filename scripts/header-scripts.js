@@ -1,7 +1,6 @@
 const botonMenu = document.getElementById("boton-menu");
-const firstDiv = botonMenu.firstElementChild;
 const nav = document.getElementById("nav");
-const link = document.getElementsByTagName("a");
+const firstDiv = botonMenu.firstElementChild;
 
 const moveNavbarDelay = () => {
     setTimeout(() => {
@@ -26,3 +25,28 @@ const moveNavbar = () => {
 
 botonMenu.onclick = moveNavbar;
 nav.onclick = moveNavbarDelay;
+
+// const dpr = document.getElementById("dpr");
+// const numDpr = document.getElementById("numDpr");
+// const ancho = document.getElementById("ancho");
+// const alto = document.getElementById("alto");
+
+
+// const f = () => {
+//     numDpr.innerHTML = `DPR: ${window.devicePixelRatio}`;
+//     ancho.innerHTML = `Ancho: ${window.innerWidth}`
+//     alto.innerHTML = `Alto: ${window.innerHeight}`
+// }
+
+// dpr.onclick = f;
+
+
+const f = () => {
+
+    // const laConferencia = document.getElementById("laConferencia");
+    // console.log(laConferencia)
+
+    const activeElement = document.activeElement.className
+    console.log(activeElement);
+}
+document.addEventListener("click", f, true)
